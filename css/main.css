@@ -2160,7 +2160,7 @@ h1, h2, h3, h4, h5, h6 {
 .banner-area {
   margin-top: -56px;
   border-radius: 10px;
-  background: url(../img/header-bg.jpg) center;
+  background: url(../wallpaper/photo-1572476359541-2a41ec8405e5.jpeg) center;
   background-size: cover;
 }
 
@@ -2341,7 +2341,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-area {
-  background: url(../img/service-bg.jpg) center;
+  background: url(../wallpaper/bottom.jpg) center;
   background-size: cover;
   border-radius: 10px;
 }
@@ -2820,5 +2820,16 @@ Flexbox is used as a fallback so that browsers which don't support grid will sti
 	.gallery-item {
 		margin: 0;
 	}
+}
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+   background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid rgb(139, 139, 139);
 }
 
